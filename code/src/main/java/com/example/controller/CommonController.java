@@ -20,5 +20,13 @@ public class CommonController {
 
         return BaseVO.build200();
     }
+
+    @PostMapping("sub2")
+    public BaseVO<String> sub2(@RequestBody SubReqVO vo) {
+
+        System.out.println(vo.getName() + vo.getCompanyName() + vo.getPhone() + vo.getDemand());
+
+        return BaseVO.build200();
+    }
 }
 
