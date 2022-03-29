@@ -1,5 +1,6 @@
 package com.example.webframework;
 
+import com.example.base.BaseVO;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.HttpStatus;
@@ -54,5 +55,11 @@ public class WebFrameworkApplication {
         });
 
         return new ResponseEntity<>(fcHeaders, HttpStatus.OK);
+    }
+
+    @GetMapping("test1")
+    public BaseVO<String> listHeaders() {
+
+        return BaseVO.build200();
     }
 }
