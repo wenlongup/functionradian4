@@ -10,12 +10,11 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.example</groupId>
-	<artifactId>webframework</artifactId>
+	<groupId>com.bananalab</groupId>
+	<artifactId>code</artifactId>
 	<version>1.0</version>
 
-	<name>webframework</name>
-	<description>Demo project for Spring Boot</description>
+	<name>code</name>
 
 	<properties>
 		<java.version>1.8</java.version>
