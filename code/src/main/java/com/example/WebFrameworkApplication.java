@@ -1,4 +1,4 @@
-package com.example.webframework;
+package com.example;
 
 import com.example.base.BaseVO;
 import org.springframework.boot.SpringApplication;
