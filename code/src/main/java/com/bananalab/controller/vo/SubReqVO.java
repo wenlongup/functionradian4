@@ -1,4 +1,4 @@
-package com.example.controller.vo;
+package com.bananalab.controller.vo;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.example.base;
+package com.bananalab.base;
 
 import lombok.Getter;
 import lombok.Setter;

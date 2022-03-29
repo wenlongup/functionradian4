@@ -1,4 +1,4 @@
-package com.example.config;
+package com.bananalab.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
-package com.example.controller;
+package com.bananalab.controller;
 
-import com.example.base.BaseVO;
-import com.example.controller.vo.SubReqVO;
+import com.bananalab.base.BaseVO;
+import com.bananalab.controller.vo.SubReqVO;
 import org.springframework.web.bind.annotation.*;
 
 /**
